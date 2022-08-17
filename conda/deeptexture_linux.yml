@@ -9,12 +9,14 @@ dependencies:
   - jupyterlab=3.4.0
   - cudnn=7.6.5.32=h01f27c4_1
   - tensorflow-gpu=2.7.0=cuda102py37hf05f184_0
+  - nodejs=16.13.0
   - pip:
     - pillow==9.2.0
     - joblib==0.13.2
     - nmslib==2.0.6
     - seaborn==0.10.1
     - pandas==1.1.0
+    - plotly==5.10.0
     - efficientnet==1.1.1
     - opencv-python==4.6.0.66
     - deeptexture==0.2.5
