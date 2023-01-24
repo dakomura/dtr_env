@@ -1,25 +1,25 @@
 name: deeptextureosxarm64cpu
 channels:
-#   - defaults
-  - apple
   - conda-forge
 dependencies:
-#   - python=3.7.12
-  - python=3.8.13
-#   - pip=22.0.4
-  - pip=22.1.2
-  - umap-learn=0.5.3
-  - jupyterlab=3.4.0
-#   - cudnn=7.6.5.32=h01f27c4_1
-#   - tensorflow-gpu=2.7.0=cuda102py37hf05f184_0
-  - nodejs=16.13.0
+  # - python>=3.7.0, <=3.8.15 # for windows cpu(Intel)
+  # - python>=3.7.4, <=3.8.15 # for mac cpu(Intel)
+  - python>=3.8.5, <=3.8.15 # for mac cpu(Arm)
+  - pip>=22.0.1, <=22.2.2
+  - umap-learn>=0.5.3
+  - jupyterlab>=3.4.0
+  - tensorflow>=2.4.0
+  - nodejs>=16.13.0
   - pip:
-    - pillow==9.2.0
-    - joblib==0.13.2
-#     - nmslib==2.0.6
-    - seaborn==0.10.1
-    - plotly==5.10.0
-    - efficientnet==1.1.1
-    - opencv-python==4.6.0.66
-#     - deeptexture==0.3.0
-    - ipywidgets>=7.6
+      - Pillow>=8.0.1
+      - joblib>=0.13.2
+      - nmslib>=2.0.6
+      - seaborn>=0.10.1
+      - plotly>=5.10.0
+      - efficientnet>=1.1.1
+      - opencv-python>=4.6.0.66
+      - scikit-learn>=1.0.2
+      - matplotlib>=3.5.0
+      - numpy>=1.20.3
+      - ipywidgets>=7.6
+      - deeptexture>=0.3.4
