@@ -1,9 +1,9 @@
-name: deeptexturewin64cpu
+name: deeptextureosxintel64cpu
 channels:
   - conda-forge
 dependencies:
-  - python>=3.7.2, <=3.8.15 # for windows cpu(Intel)
-  # - python>=3.7.4, <=3.8.15 # for mac cpu(Intel)
+  # - python>=3.7.0, <=3.8.15 # for windows cpu(Intel)
+  - python>=3.7.4, <=3.8.15 # for mac cpu(Intel)
   # - python>=3.8.5, <=3.8.15 # for mac cpu(Arm)
   - pip>=22.0.1, <=22.2.2
   - umap-learn>=0.5.3
