@@ -1,4 +1,4 @@
-name: deeptexturewin64cpu
+name: deeptexture
 channels:
   - conda-forge
 dependencies:
@@ -22,4 +22,4 @@ dependencies:
       - matplotlib>=3.5.0
       - numpy>=1.20.3
       - ipywidgets>=7.6
-      - deeptexture>=0.3.4
+      - deeptexture>=0.3.5
